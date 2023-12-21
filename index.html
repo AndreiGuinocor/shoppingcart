@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+
+<!------ Google Fonts ------>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&family=Karla:wght@200;300;400;500&family=Montserrat+Alternates:ital,wght@0,300;0,400;1,300;1,400&family=Montserrat:wght@300;400;500&family=Open+Sans:ital,wght@0,300;0,400;1,300;1,400&display=swap" rel="stylesheet">
+
+<!-- Bootstrap CSS-->	
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+<!--External JS-->
+<script src="script.js" async></script>
+
+</head>
+
+<!----External CSS----->
+<link rel="stylesheet" type="text/css" href="styles.css">
+
+<!-----FontAwsome------>
+<script src="https://kit.fontawesome.com/9d9796826b.js" crossorigin="anonymous"></script>
+
+<body>
+<!---- Bootstrap Script---->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+<!--Heading-->
+<header>
+  <a href="#" class="logo">YAWA</a>
+  <nav class="navbar">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#accessories">Accessories</a></li>
+      <li><a href="#">Products +</a>
+          <ul>
+            <li><a href="#keyboard">Keyboards</a></li>
+            <li><a href="#headphone">Headphones</a></li>
+            <li><a href="#mouse">Mouse</a></li>
+            <li><a href="#ergonomics">Ergonomic Products</a></li>
+          </ul>     
+      </li>
+      <a href="#shopping-cart" style="color: black;">
+        <i class="fa-solid fa-cart-shopping fa-xl"></i>
+      </a>
+  </nav>
+</header>
+
+
+<div id="keyboard" class="divider">
+  <div class="line"></div>
+  <h3>KEYBOARD</h3>
+</div>
+
+
+<!----------------------------------------------------------------------------------->
+
+<!--Keyboards-->
+<section id="product-cards">
+  <div class="container-fluid">
+    <div class="row row-cols-2 row-cols-md-4 g-4">
+      <div class=" col filter-item">
+        <div class="card h-100">
+          <img src="images/keyboard/razerKB.png" class="card-img-top shop-item-image" alt="...">
+          <div class="card-body">
+            <h5 class="card-title shop-item-title">Razer Huntsman Elite</h5>
+            <p class="desc"> Ultimate Personalization & Gaming Immersion with Razer Chroma <br>Quality Aluminum Construction<br>Ergonomic</p>
+            <p class="card-text shop-item-price">₱6,999.00</p>
+            <button type="button" class="btn btn-warning mt-auto shop-item-button"><i class="fa-solid fa-cart-shopping " style="margin-right: 4%;"></i>Add To Cart</button>
+          </div>
+        </div>
+      </div>
+
+      <div class=" col filter-item">
+        <div class="card h-100">
+            <img src="images/keyboard/steelseriesKB.png" class="card-img-top shop-item-image" alt="...">
+            <div class="card-body">
+                <h5 class="card-title shop-item-title">Steelseries Apex 7 Keyboard</h5>
+                <p class="desc">OLED Smart Display<br>Aircraft-grade aluminum alloy<br>RGB Illumination<br>Premium Magnetic Wrist Rest</p>
+                <p class="card-text shop-item-price">₱7,569.00</p>
+                <button type="button" class="btn btn-warning mt-auto shop-item-button"><i class="fa-solid fa-cart-shopping"></i>Add To Cart</button>
+            </div>
+        </div>
+      </div>
+
+    
+
+    <div class="col filter-item">
+      <div class="card h-100">
+          <img src="images/keyboard/logitechGProKB.png" class="card-img-top shop-item-image" alt="...">
+          <div class="card-body">
+              <h5 class="card-title shop-item-title">Logitech G Pro League of Legends LIMITED EDITION</h5>
+              <p class="desc"> Durable GX Brown Tactile Switches<br>Compact & Portable<br>Customizable<br>Programmable Macros</p>
+              <p class="card-text shop-item-price">₱6,699.00</p>
+              <button type="button" class="btn btn-warning mt-auto shop-item-button"><i class="fa-solid fa-cart-shopping"></i>Add To Cart</button>
+          </div>
+      </div>
+  </div>
+    
+
+      <div class="col filter-item">
+        <div class="card h-100">
+            <img src="images/keyboard/redragonFizzKB.png" class="card-img-top shop-item-image" alt="...">
+            <div class="card-body">
+                <h5 class="card-title shop-item-title">Redragon Fizz Pink</h5>
+                <p class="desc">Hot-Swappable Socket<br>Pro Software Customizable<br>Vibrant RGB<br>Dedicated For FPS Gamers </p>
+                <p class="card-text shop-item-price">₱1,299.00</p>
+                <button type="button" class="btn btn-warning mt-auto shop-item-button"><i class="fa-solid fa-cart-shopping"></i>Add To Cart</button>
+            </div>
+        </div>
+    </div>
+
+
+    </div>
+  </div>
+</section>
+
+<div id="headphone" class="divider">
+  <div class="line"></div>
+  <h3>HEADPHONES</h3>
+</div>
+
+<!--Headsets-->
+<section id="product-cards">
+  <div class="container-fluid">
+    <div class="row row-cols-2 row-cols-md-4 g-4">
+      <div class=" col filter-item">
+        <div class="card h-100">
+          <img src="images/headset/corsairHP.jpg" class="card-img-top shop-item-image" alt="...">
+          <div class="card-body">
+            <h5 class="card-title shop-item-title">Corsair HS35</h5>
+            <p class="desc">Headset Frequency Response 20Hz-20kHz<br>Fully Detachable Microphone<br>50mm Speaker Drivers<br>Plush Memory Foam Ear Pads</p>
+            <p class="card-text shop-item-price">₱2,140.00</p>
+            <button type="button" class="btn btn-warning mt-auto shop-item-button"><i class="fa-solid fa-cart-shopping " style="margin-right: 4%;"></i>Add To Cart</button>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col filter-item keyboard">
+        <div class="card h-100">
+            <img src="images/headset/hyperxHP.png" class="card-img-top shop-item-image" alt="...">
+            <div class="card-body">
+                <h5 class="card-title shop-item-title">Hyper X Cloud II </h5>
+                <p class="desc">Virtual 7.1 Surround Sound<br>HyperX signature comfort<br>Advanced audio control box<br>Compatible with Xbox controller mobile devices via 3.5MM</p>
+                <p class="card-text shop-item-price">₱5,550.00</p>
+                <button type="button" class="btn btn-warning mt-auto shop-item-button"><i class="fa-solid fa-cart-shopping"></i>Add To Cart</button>
+            </div>
+        </div>
+    </div>
+    
+
+    <div class="col filter-item">
+      <div class="card h-100">
+          <img src="images/headset/razerHP.jpg" class="card-img-top shop-item-image" alt="...">
+          <div class="card-body">
+              <h5 class="card-title shop-item-title">Razer Kraken Pro V2</h5>
+              <p class="desc">50mm Razer Custom Tuned Drivers<br>Optimum Form Factor for Maximum Comfort<br>Fully Retractable Microphone<br>Oval Ear Cushions for Full Ear Coverage</p>
+              <p class="card-text shop-item-price">₱3,959.00</p>
+              <button type="button" class="btn btn-warning mt-auto shop-item-button"><i class="fa-solid fa-cart-shopping"></i>Add To Cart</button>
+          </div>
+      </div>
+  </div>
+    
+
+      <div class="col filter-item">
+        <div class="card h-100">
+            <img src="images/headset/jblHP.png" class="card-img-top shop-item-image" alt="...">
+            <div class="card-body">
+                <h5 class="card-title shop-item-title">JBL Quantum 300</h5>
+                <p class="desc">JBL Quantum Surround Sound Technology<br> Boom Microphone with Echo Cancelling<br>Memory Foam Ear Cushions</p>
+                <p class="card-text shop-item-price">₱2,649.00</p>
+                <button type="button" class="btn btn-warning mt-auto shop-item-button"><i class="fa-solid fa-cart-shopping"></i>Add To Cart</button>
+            </div>
+        </div>
+    </div>
+
+    </div>
+  </div>
+</section>
+
+<div id="mouse" class="divider">
+  <div class="line"></div>
+  <h3>MOUSE</h3>
+</div>
+
+<!--Mouse-->
+<section id="product-cards">
+  <div class="container-fluid">
+    <div class="row row-cols-2 row-cols-md-4 g-4">
+      <div class=" col filter-item">
+        <div class="card h-100">
+          <img src="images/mouse/razer.jpg" class="card-img-top shop-item-image" alt="...">
+          <div class="card-body">
+            <h5 class="card-title shop-item-title">Razer Deathadder V2</h5>
+            <p class="desc">The #1 Best Selling Gaming Peripherals in the US<br> Focus+ 20k DPI Optical Sensor<br>70 hours battery life</p>
+            <p class="card-text shop-item-price">₱2,199.00</p>
+            <button type="button" class="btn btn-warning mt-auto shop-item-button"><i class="fa-solid fa-cart-shopping " style="margin-right: 4%;"></i>Add To Cart</button>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col filter-item">
+        <div class="card h-100">
+            <img src="images/mouse/logitechG502.png" class="card-img-top shop-item-image" alt="...">
+            <div class="card-body">
+                <h5 class="card-title shop-item-title">Logitech G502 Lightspeed</h5>
+                <p class="desc">HERO 25k Sensor<br>11 Buttons and Hyper Fast Scroll Wheel<br>Tuneable Weight and Color Systems</p>
+                <p class="card-text shop-item-price">₱2,999.00</p>
+                <button type="button" class="btn btn-warning mt-auto shop-item-button"><i class="fa-solid fa-cart-shopping"></i>Add To Cart</button>
+            </div>
+        </div>
+    </div>
+    
+
+    <div class="col filter-item">
+      <div class="card h-100">
+          <img src="images/mouse/gloriousmodelO.jpg" class="card-img-top shop-item-image" alt="...">
+          <div class="card-body">
+              <h5 class="card-title shop-item-title">Glorious Model O White Wireless</h5>
+              <p class="desc">Customizable RGB<br> 19,000 Max DPI<br>1,000Hz Polling Rate<br>Built To Last</p>
+              <p class="card-text shop-item-price">₱3,850.00</p>
+              <button type="button" class="btn btn-warning mt-auto shop-item-button"><i class="fa-solid fa-cart-shopping"></i>Add To Cart</button>
+          </div>
+      </div>
+  </div>
+    
+
+      <div class="col filter-item">
+        <div class="card h-100">
+            <img src="images/mouse/redragon.jpg" class="card-img-top shop-item-image" alt="...">
+            <div class="card-body">
+                <h5 class="card-title shop-item-title">Redragon Cobra M711</h5>
+                <p class="desc">5 DPI Options and Customized Function<br>7 Programmable Buttons<br> Comfort and Precision at your Hands</p>
+                <p class="card-text shop-item-price">₱840.00</p>
+                <button type="button" class="btn btn-warning mt-auto shop-item-button"><i class="fa-solid fa-cart-shopping"></i>Add To Cart</button>
+            </div>
+        </div>
+    </div>
+    </div>
+
+  </div>
+</section>
+
+<div id="ergonomics" class="divider">
+  <div class="line"></div>
+  <h3>ERGONOMICS</h3>
+</div>
+
+<!--Ergonomics-->
+<section id="product-cards">
+  <div class="container-fluid">
+    <div class="row row-cols-2 row-cols-md-4 g-4">
+      <div class=" col filter-item">
+        <div class="card h-100">
+          <img src="images/ergonomics/gamingChair.png" class="card-img-top shop-item-image" alt="...">
+          <div class="card-body">
+            <h5 class="card-title shop-item-title">GTPLAYER Gaming Chair</h5>
+            <p class="desc">Ergonomic Design<br> Personalized Adjustability<br> 360-degree swivel wheels<br> Built To Last</p> 
+            <p class="card-text shop-item-price">₱8,892.00</p>
+            <button type="button" class="btn btn-warning mt-auto shop-item-button"><i class="fa-solid fa-cart-shopping " style="margin-right: 4%;"></i>Add To Cart</button>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col filter-item">
+        <div class="card h-100">
+            <img src="images/ergonomics/glasses.png" class="card-img-top shop-item-image" alt="...">
+            <div class="card-body">
+                <h5 class="card-title shop-item-title">FEIYOLD Blue Light Blocking Glasses </h5>
+                <p class="desc"> Virtual 7.1 Surround Sound<br> HyperX signature comfort<br> Advanced audio control box<br> Compatible with Xbox controller<br>mobile devices via 3.5MM.</p>
+                <p class="card-text shop-item-price">₱945.00</p>
+                <button type="button" class="btn btn-warning mt-auto shop-item-button"><i class="fa-solid fa-cart-shopping"></i>Add To Cart</button>
+            </div>
+        </div>
+    </div>
+    
+
+    <div class="col filter-item">
+      <div class="card h-100">
+          <img src="images/ergonomics/verticalMouse.jpg" class="card-img-top shop-item-image" alt="...">
+          <div class="card-body">
+              <h5 class="card-title shop-item-title">Anker Ergonomic Optical Vertical Mouse </h5>
+              <p class="desc">Scientific Orgonomic Design<br>1000/1600 DPI Resolution Optical Tracking Technology<br>Side buttons for faster Browsing</p>
+              <p class="card-text shop-item-price">₱1,275.00</p>
+              <button type="button" class="btn btn-warning mt-auto shop-item-button"><i class="fa-solid fa-cart-shopping"></i>Add To Cart</button>
+          </div>
+      </div>
+  </div>
+    
+
+      <div class="col filter-item">
+        <div class="card h-100">
+            <img src="images/ergonomics/wristWrest.png" class="card-img-top shop-item-image" alt="...">
+            <div class="card-body">
+                <h5 class="card-title shop-item-title">Redragon Wristpad P022</h5>
+                <p class="desc">Ultra Thick Memory Foam<br> Ergonomic Design<br>Stain and Water Resistant</p>
+                <p class="card-text shop-item-price">₱350.00</p>
+                <button type="button" class="btn btn-warning mt-auto shop-item-button"><i class="fa-solid fa-cart-shopping"></i>Add To Cart</button>
+            </div>
+        </div>
+    </div>
+
+    </div>
+  </div>
+</section>
+
+<div id="accessories" class="divider">
+  <div class="line"></div>
+  <h3>ACCESSORIES</h3>
+</div>
+
+<!--Accessories-->
+<section id="product-cards">
+  <div class="container-fluid">
+    <div class="row row-cols-2 row-cols-md-4 g-4">
+      <div class=" col filter-item">
+        <div class="card h-100">
+          <img src="images/accessories/speakers.jpg" class="card-img-top shop-item-image" alt="...">
+          <div class="card-body">
+            <h5 class="card-title shop-item-title">Logitech S150 USB Stereo Speakers</h5>
+            <p class="desc">Slim<br>LightWeight<br>Clear Stereo</p>
+            <p class="card-text shop-item-price">₱720.00</p>
+            <button type="button" class="btn btn-warning mt-auto shop-item-button"><i class="fa-solid fa-cart-shopping " style="margin-right: 4%;"></i>Add To Cart</button>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="col filter-item">
+        <div class="card h-100">
+            <img src="images/accessories/headsetStand.png" class="card-img-top shop-item-image" alt="...">
+            <div class="card-body">
+                <h5 class="card-title shop-item-title"> Headset Stand</h5>
+                <p class="desc"> Perfect For Displaying Your Headset<br> Sturdy and Safe</p>
+                <p class="card-text shop-item-price">₱199.00</p>
+                <button type="button" class="btn btn-warning mt-auto shop-item-button"><i class="fa-solid fa-cart-shopping"></i>Add To Cart</button>
+            </div>
+        </div>
+    </div>
+    
+
+    <div class="col filter-item">
+      <div class="card h-100">
+          <img src="images/accessories/usbHub.jpg" class="card-img-top shop-item-image" alt="...">
+          <div class="card-body">
+              <h5 class="card-title shop-item-title">Anker 4-Port USB 3.0 HUB </h5>
+              <p class="desc">4 USB 3.0 Slots<br> Ultra Slim<br>Superspeed Data 5Gbps<br>Fast 1000w PD Charging</p>
+              <p class="card-text shop-item-price">₱1,275.00</p>
+              <button type="button" class="btn btn-warning mt-auto shop-item-button"><i class="fa-solid fa-cart-shopping"></i>Add To Cart</button>
+          </div>
+      </div>
+  </div>
+    
+
+      <div class="col filter-item">
+        <div class="card h-100">
+            <img src="images/accessories/mousepad.png" class="card-img-top shop-item-image" alt="...">
+            <div class="card-body">
+                <h5 class="card-title shop-item-title">Extended Mousepad Black</h5>
+                <p class="desc">Extended Size<br> Highly Durable Design<br>Non-slip Rubber Base<br> Water Resistant Clothing</p>
+                <p class="card-text shop-item-price">₱297.00</p>
+                <button type="button" class="btn btn-warning mt-auto shop-item-button"><i class="fa-solid fa-cart-shopping"></i>Add To Cart</button>
+            </div>
+        </div>
+    </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!--Shopping Cart-->
+<section class="container content-section" id="shopping-cart">
+  
+  <h3 style="text-decoration: underline;text-align: center; margin-bottom: 7%;">Shopping Cart</h3>
+ 
+ <table class="table table-hover table-cart">
+  <thead>
+    <tr>
+      <th>Item</th>
+      <th>Price</th>
+      <th>Quantity</th>
+    </tr>
+  </thead>
+  <tbody class="cart-items">
+    
+     
+  </tbody>
+</table>
+
+    <div class="cart-total"> 
+      <strong class="cart-total-title">Total</strong>
+      <span  class="cart-total-price" style="text-align: right;">₱0</span>
+    </div>
+ 
+    <div class="btn-purchase" style="margin-top: 10%;">
+      <button type="button"  class="btn btn-dark btn-purchase "><i class="fa-solid fa-cart-shopping " style="margin-right: 6%;"></i>PURCHASE</button>
+    </div>
+
+</section>
+ 
+<!--Footer-->
+<section id="footer">
+  <div class="card text-center">
+   
+    <div class="card-body">
+      <h3 class="card-title">PRO PLAY</h3>
+      <p>Thank You , Come Again !!!</p>
+    </div>
+    <div class="card-footer text-muted">
+       <p></p>
+       <p></p>
+    </div>
+  </div>
+</section>
+
+
+<!--External JS-->
+<script src="script.js"></script>
+
+</body>
+</html>
